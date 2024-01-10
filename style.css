@@ -1,0 +1,172 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:sans-serif;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    height: 15vh;
+    width: 100vw;
+}
+.logo>img{
+    height:60% ;
+   
+}
+.container{
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.store{
+    margin: auto;
+    width: 70%;
+    height: 100%;
+
+}
+.shoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+
+}
+.cards{
+    width: 35%;
+    height: 15%;
+    border-radius: 5px;
+    box-shadow: 7px 7px 20px rgb(122, 116, 116);
+}
+.cards:hover{
+    transition: 300ms;
+    scale: 1.1;
+}
+.image{
+    padding: 10px;
+}
+.image>img{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2px;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart>img{
+    width: 60%;
+    height: 40%;
+}
+footer {
+    color: rgba(8, 0, 0, 0.747);
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: black;
+}
+
+
+
+@media screen and (max-width: 1300px) {
+
+    nav{
+        max-width: 90vw;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .secImg img {
+        width: 305px;
+    }
+
+    .secImg video {
+        width: 305px;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .faq h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    footer {
+        max-width: 90vw;
+        padding: 75px 0;
+    }
+
+    .footer-item{
+        align-items: center;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 1300px) {
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+}
+
+
+.footer a {
+    font-size: 14px;
+    color:black;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
